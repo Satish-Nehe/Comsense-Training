@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 73vh;
+    width: 50vw;
+    padding: 20px;
+    gap: 50px;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container h1{
+    color: blue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+h1 img{
+    height: 50px;
+}
+.sub-container h2{
+    font-weight: bolder;
+}
+h4{
+    color:gray;
+}
+.Email-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+.Email-container label{
+    padding-left: 5px;
+    font-weight: bold;
+}
+.Email{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+.password-container label{
+    padding-left: 5px;
+    font-weight: bold;
+}
+.Password{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+a{
+    text-align: end;
+}
+.sign-in{
+    width: 20vw;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+.log-in{
+    width: 20vw;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+.log-in-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.log-in-button img{
+    height: 12px;
+}
+
+.Or-div{
+    text-align: center;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items:center;
+    justify-content: center;
+}
+.last-part img{
+    height: 68vh;
+}
